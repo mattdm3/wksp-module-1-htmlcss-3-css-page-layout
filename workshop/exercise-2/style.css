@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 60px auto 60px;
+}
+
+.content {
+    margin: auto;
+    text-transform: uppercase;
+}
+
+nav, footer {
+    color: white;
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+
+}
