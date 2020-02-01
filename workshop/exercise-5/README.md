@@ -18,6 +18,7 @@ Your HTML should have the following structure:
 
 <head>
     <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>

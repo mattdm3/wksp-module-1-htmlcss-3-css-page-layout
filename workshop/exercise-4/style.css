@@ -1,0 +1,57 @@
+*  {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+nav {
+    background-color: #3a3630;
+    text-align: center;
+    height: 60px;
+
+}
+
+ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+
+li {
+    padding: 0 40px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+img {
+    transition: ease-in-out .2s;
+}
+
+li:hover, .apple-logo:hover {
+    color: rgb(158, 157, 157);
+    
+}
+.apple-logo:hover {
+    color: rgb(158, 157, 157);
+}
+
+.apple-logo {
+    line-height: 1px;
+}
+
+img:hover {
+    opacity: .3;
+    transition: ease-in-out .2s;
+}
+
+
+
+

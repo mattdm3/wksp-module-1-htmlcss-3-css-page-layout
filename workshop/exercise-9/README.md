@@ -4,7 +4,7 @@
 
 Update the `index.html` file and `style.css` file to reproduces the following:
 
-![exercise-9 goal](../../assets/ex-9-goal.png)
+![exercise-9 goal](../../assets/ex-9-goal.gif)
 
 ### Properties Needed
 

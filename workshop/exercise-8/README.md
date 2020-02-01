@@ -4,7 +4,7 @@
 
 Create an `index.html` file and a `style.css` file that reproduces the following:
 
-![exercise-8 goal](../../assets/ex-8-goal.png)
+![exercise-8 goal](../../assets/ex-8-goal.gif)
 
 ### Reference
 
@@ -37,6 +37,6 @@ hover
 
 - Make the button do a 360deg rotation when it bounces
 
-![exercise-8 bonus goal](../../assets/ex-8-goal-bonus.png)
+![exercise-8 bonus goal](../../assets/ex-8-goal-bonus.gif)
 
 - Use the syntax `transform:scale() rotate()` in your keyframe

@@ -1,17 +1,42 @@
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
-
+    width: 100%;
+    background-color: blue;
+    color:white;
+    text-align: center;
 }
 
 .registration-form {
-
+    display: flex;
+    flex-direction: column;
+    margin: 10px 100px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    border: 1px solid rgb(187, 186, 186);
+    padding: 40px;
 }
 
 .text-field {
+    width: 300px;
+    height:  35px;
+    margin: 0 auto;
+    border: 1px solid rgb(53, 166, 201);
+    border-radius: 5px;
+    
+
+}
+
+.text-field + div {
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 30px;
 
 }
 
@@ -21,29 +46,60 @@ body {
 }
 
 label {
+    margin: 10px 0;
 
 }
 
 .section {
+    text-align: left;
+    padding: 20px 0;
+    border-top: 1px solid rgb(180, 180, 187);
 
+}
+.section + div {
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .section > label {
+    text-align: center;
+}
 
+
+.section + div:nth-child(3n){
+    text-align: center;
 }
 
 select {
+    background-color: rgb(238, 238, 238);
 
 }
 
 textarea {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 60px;
+    border: none;
+    background-color: rgb(240, 240, 240);
 
 }
 
 .form-button {
+    height: 50px;
+    width: 120px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgb(52, 141, 224);
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: .5s;
 
 }
 
 .form-button:hover {
+    color: white;
+    background-color: rgb(52, 141, 224);
+    transition-duration: .5s;
     
 }

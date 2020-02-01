@@ -4,7 +4,7 @@
 
 Update only the `style.css` file to reproduces the following:
 
-![exercise-10 goal](../../assets/ex-10-goal.png)
+![exercise-10 goal](../../assets/ex-10-goal.gif)
 
 ### Properties Needed
 
